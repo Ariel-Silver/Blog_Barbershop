@@ -1,0 +1,13 @@
+.main_section_row-btn-gray {
+    border-radius: 40px;
+    border: none;
+    background-color: $nickel;
+    color: $white;
+    font-size: $medium;
+    padding: 0.5em;
+
+     &:hover {
+       background-color: $light-gray;
+       color: $white;
+    }
+}

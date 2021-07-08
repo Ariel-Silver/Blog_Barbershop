@@ -1,0 +1,24 @@
+.page {
+    background-color: $platinum;
+}
+
+.page-link {
+    color: $eerie-black;
+    font-size: $medium;
+
+    &:hover {
+        background-color: $nickel;
+        color: $white;
+    }
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 15rem;
+    border-bottom-left-radius: 15rem;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 15rem;
+    border-bottom-right-radius: 15rem;
+}
